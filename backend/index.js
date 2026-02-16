@@ -18,7 +18,7 @@ app.use(express.json());
 connectDB();
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://music-player-kappa-amber.vercel.app",
     credentials:true,
 }))
 
